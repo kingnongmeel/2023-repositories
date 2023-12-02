@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경스타일</title>
+    <style>
+        body {
+            background: aqua;
+        }
+
+        #div-bg {
+            background : white;
+        }
+
+        .div-test {
+            background : white;
+            padding : 20px;
+            border : 5px dashed black;
+            width : 20%;
+            float : left;
+        }
+
+        #div1 {
+            background-clip: border-box;
+        }
+        #div2 {
+            background-clip: padding-box;
+        }
+        #div3 {
+            background-clip: content-box;
+        }
+
+        .clearfloat {
+            clear : left;
+        }
+
+        #bg-img {
+            width : 70%;
+            height : 1600px;
+            border : 4px solid red;
+            background-image : url("../resources/images/flower1.PNG");
+        
+            background-repeat: no-repeat;
+
+            background-size : cover;
+            background-size : contain;
+            background-size : auto;
+
+            background-attachment: fixed;
+            background-attachment: scroll;
+
+            background-position: 50% 50%;
+            background-position: 30px 50px;
+            background-position: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>배경색과 배경 이미지</h1>
+
+    <h3>div 배경 테스트</h3>
+    <div id="div-bg">
+        인생에 같은 거친 같이, 갑 속잎나고, 웅대한 철환하였는가? 두기 희망의 장식하는 이것이다. 가장 같이, 인간의 가치를 있음으로써 위하여서. 아니한 품고 피어나는 꾸며 창공에 위하여 같은 그리하였는가? 속에 작고 천자만홍이 천고에 쓸쓸하랴? 있을 청춘 같지 사막이다. 청춘에서만 많이 눈이 때문이다. 뛰노는 창공에 지혜는 노년에게서 곳으로 위하여, 석가는 새 들어 끓는다. 살 기쁘며, 거친 풀이 내려온 이것이다. 피가 따뜻한 사람은 가지에 희망의 실로 가치를 가슴이 교향악이다.
+    </div>
+
+    <h3>배경 적용 범위 조정</h3>
+    <div class="div-test" id="div1">
+        인생에 같은 거친 같이, 갑 속잎나고, 웅대한 철환하였는가? 두기 희망의 장식하는 이것이다. 가장 같이, 인간의 가치를 있음으로써 위하여서. 아니한 품고 피어나는 꾸며 창공에 위하여 같은 그리하였는가? 속에 작고 천자만홍이 천고에 쓸쓸하랴? 있을 청춘 같지 사막이다. 청춘에서만 많이 눈이 때문이다. 뛰노는 창공에 지혜는 노년에게서 곳으로 위하여, 석가는 새 들어 끓는다. 살 기쁘며, 거친 풀이 내려온 이것이다. 피가 따뜻한 사람은 가지에 희망의 실로 가치를 가슴이 교향악이다.
+    </div>
+    <div class="div-test" id="div2">
+        인생에 같은 거친 같이, 갑 속잎나고, 웅대한 철환하였는가? 두기 희망의 장식하는 이것이다. 가장 같이, 인간의 가치를 있음으로써 위하여서. 아니한 품고 피어나는 꾸며 창공에 위하여 같은 그리하였는가? 속에 작고 천자만홍이 천고에 쓸쓸하랴? 있을 청춘 같지 사막이다. 청춘에서만 많이 눈이 때문이다. 뛰노는 창공에 지혜는 노년에게서 곳으로 위하여, 석가는 새 들어 끓는다. 살 기쁘며, 거친 풀이 내려온 이것이다. 피가 따뜻한 사람은 가지에 희망의 실로 가치를 가슴이 교향악이다.
+    </div>
+    <div class="div-test" id="div3">
+        인생에 같은 거친 같이, 갑 속잎나고, 웅대한 철환하였는가? 두기 희망의 장식하는 이것이다. 가장 같이, 인간의 가치를 있음으로써 위하여서. 아니한 품고 피어나는 꾸며 창공에 위하여 같은 그리하였는가? 속에 작고 천자만홍이 천고에 쓸쓸하랴? 있을 청춘 같지 사막이다. 청춘에서만 많이 눈이 때문이다. 뛰노는 창공에 지혜는 노년에게서 곳으로 위하여, 석가는 새 들어 끓는다. 살 기쁘며, 거친 풀이 내려온 이것이다. 피가 따뜻한 사람은 가지에 희망의 실로 가치를 가슴이 교향악이다.
+    </div>
+
+    <hr class="clearfloat">
+
+    <h3>배경 이미지 테스트</h3>
+    <div id="bg-img"></div>
+</body>
+</html>
